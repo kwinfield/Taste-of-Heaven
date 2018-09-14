@@ -1,0 +1,448 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: white;
+}
+
+body p {
+	font-family: 'Old Standard TT', serif;
+	font-size: 1em;
+	text-align: center;
+}
+
+
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+.nav-container {
+	width: 100%;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.nav-colored { 
+	background-color: black !important;
+}
+
+
+
+
+.nav-link {
+	color: white !important;
+	margin-left: 10px;
+}
+
+.nav-link:hover {
+	color: #cdd0d6;
+}
+
+
+
+.dropdown-item,
+.dropdown-menu {
+	background-color: rgba(5, 4, 4, .5);
+	color: white;
+}
+
+.spacer-title {
+	margin-top: 15% !important;
+}
+
+.container a {
+	font-family: 'Kaushan Script', cursive;
+}
+
+.page-title {
+	font-family: 'Kaushan Script', cursive;
+}
+
+video {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	width: 100%;
+    height: auto;
+	z-index: -1000;
+	overflow: hidden;
+
+}
+
+
+
+#videoBlock {
+	width: 100%;
+    height: auto;
+	justify-content: center;
+	align-items: center;
+}
+#videoMessage {
+	width: 100%;
+	height:100%;
+	position: relative;
+	margin-top: 7em;
+	text-shadow: 2px 2px 2px #000000;
+	color:white;
+	z-index:99 
+}
+
+#videoMessage *{
+	padding:0.4em; 
+	margin:0
+}
+
+
+
+#videoMessage h1{
+	font-size: 2em;
+	color:#ffffff;
+	text-align:center;
+	font-family: 'Kaushan Script', cursive;
+	display: none;
+}
+
+#videoMessage h2{
+	font-size: 1em;
+	color:#ffffff;
+	text-align:center;
+	font-family: 'Kaushan Script', cursive;
+	display: none;
+}
+
+#videoMessage h3 {
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	font-size: 1em;
+	width: 60%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#videoMessage p {
+	text-align: center;
+	font-size: .75em;
+	width: 60%;
+	margin: auto;
+	display: none;
+}
+
+/*
+
+#videoMessage img  {
+    width: 40px;
+	display: block;
+    margin: auto;
+	margin-top: 5em;
+}
+*/
+
+.bodywrap {
+	width: 100%;
+	background-color: white;
+	margin: auto;
+	margin-top: 0;
+	z-index: 1000;
+}
+
+.jtbtn {
+	width: 100%;
+	margin: auto;
+	margin-top: 3em;
+	text-align: center;
+}
+
+/*
+.body {
+	position: absolute;
+}*/
+
+
+.body {
+	width: 70%;
+	margin: auto;
+	padding-top: 25px;
+}
+
+.body h1 {
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	margin-bottom: 1em;
+	font-size: 2em;
+}
+
+.body-title {
+	text-align: center;
+	margin-bottom: 50px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.body img {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+hr {
+	margin-top: 3em;
+	margin-bottom: 4em;
+}
+
+.commercial {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	margin-bottom: 3em;
+}
+
+.commercial iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.reubpic {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	max-height: 412px;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover {
+	color: lightgray;
+}
+
+.icons  ul {
+	width: 100%;
+	padding: 0;
+}
+
+.icons img {
+	width: 50px;
+	opacity: .75;
+}
+
+
+
+.icons li {
+	display: inline-block;
+}
+
+.sf-back-to-top {
+    background-color: black; /* button color */
+    color: white; /* text/arrow color */ 
+    display: none;
+    z-index: 999;
+    /* float in bottom right corner */
+    /* 20 pixels from edge */
+    position: fixed;
+    right: 50px;
+    bottom: 75px;
+    /* size of button is 50 pixels*/
+    width: 50px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    /* round button */
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+	transition:all .3s ease-out;
+}
+
+a.sf-back-to-top {
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.6;
+    padding-left: 2px;
+    padding-top: 4px;    
+}
+
+a.sf-back-to-top .arrow:before {
+    content: '▲';
+    font-family: 'squarespace-ui-font';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: -4px;
+}
+
+a.sf-back-to-top:hover{
+	color: black;
+	text-decoration: none;
+}
+
+.sf-back-to-top:hover{
+	background-color: white;
+	border:thin solid #000000;
+	transform: rotate(360deg);
+}
+
+@media only screen and (min-width: 700px){
+	video {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+    height: auto;
+	z-index: -1000;
+	overflow: hidden;
+	}
+	
+	.bodywrap {
+	width: 100%;
+	background-color: white;
+	margin: auto;
+	z-index: 1000;
+	}
+	
+	#videoMessage h1{
+	font-size: 2em;
+	color:#ffffff;
+	text-align:center;
+	font-family: 'Kaushan Script', cursive;
+	display: block;
+	}
+	.page-title {
+	font-family: 'Kaushan Script', cursive;
+	display: none;
+	}
+	#menubutton {
+		display: none;
+	}
+}
+
+
+@media only screen and (min-width: 1400px) {
+	.spacer-title {
+	margin-top: 5% !important;
+	}
+	
+	video {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+    height: auto;
+	z-index: -1000;
+	overflow: hidden;
+
+	}
+
+	#videoMessage p {
+		text-align: center;
+		width: 60%;
+		margin: auto;
+		display: block;
+		font-size: 1em;
+	}
+
+
+	#videoBlock {
+		min-width: 100%; 
+		min-height: 100vh;
+		justify-content: center;
+		align-items: center;
+	}
+	#videoMessage {
+		width: 100%;
+		height:auto;
+		position: relative;
+		margin-top: 3em;
+		text-shadow: 2px 2px 2px #000000;
+		color:white;
+		z-index:99; 
+	}
+
+	#videoMessage *{
+		padding:0.4em; 
+		margin:0
+	}
+
+
+
+	#videoMessage h1{
+		color:#ffffff;
+		text-align:center;
+		font-family: 'Kaushan Script', cursive;
+		font-size: 4em;
+		display: block;
+	}
+
+	#videoMessage h2{
+		color:#ffffff;
+		text-align:center;
+		font-family: 'Kaushan Script', cursive;
+		display: block;
+		font-size: 2em;
+	}
+	.page-title {
+	font-family: 'Kaushan Script', cursive;
+	display: none;
+	}
+	
+	#menubutton {
+		display: none;
+	}
+	
+	.bodywrap {
+	width: 100%;
+	background-color: white;
+	margin: auto;
+	margin-top: 5em;
+	z-index: 1000;
+	}
+	
+	.body {
+		padding-top: 3em;
+	}
+	
+	.body p {
+		font-size: 1.5em;
+	}
+	
+	body p{
+		text-align: left;
+	}
+	
+	.form {
+		width: 80%;
+		margin: auto;
+	}
+	
+	.nav-container {
+	width: 100%;
+	padding-right: 10%;
+	padding-left: 10%;
+	opacity: 0;
+	}
+	
+}
+
+
+
